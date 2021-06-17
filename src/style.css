@@ -204,5 +204,68 @@ body{
     height: fit-content;
   }
 
+  .invitados-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .invit-img-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+
+  .invit-img-container img{
+    width: 30%;
+    height: 20%;
+  }
+  .invit-title{
+    color: #060A24;
+    text-align:left;
+    margin: 5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 0;
 
 
+  }
+
+  .topicos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+
+  .topic-icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .icon-item{
+    width: 104px;
+    height: 104px;
+  }
+
+ h4{
+  font-family: "IBM Plex Sans" , sans-serif;
+  font-size: 24px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  width: 60%;
+  }
+
+
+  /* FOOTER */
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
