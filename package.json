@@ -1,7 +1,7 @@
 {
-  "name": "memory-match",
+  "name": "landing-page",
   "version": "1.0.0",
-  "description": "Memory Match Game",
+  "description": "landing page",
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
