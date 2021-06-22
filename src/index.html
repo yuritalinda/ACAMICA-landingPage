@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-16">
+    <title>Podcast Landing page</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;500&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header-container">
+
+      
+
+      <nav class="navBar-container">
+
+        <div class="logo-container">
+          <img src="/assets/logo.svg" alt="logo" class="logo">
+        </div>
+
+        <ul class="navBar">
+          <li class="nav-link">Episodios</li>
+          <li class="nav-link">Nosotros</li>
+          <li class="nav-link">Entrevistas</li>
+          <li class="nav-link">Tópicos</li>
+        </ul>
+      </nav>
+
+      <div class="hero">
+        <h1 class="hero-title">Hello <span id="world">world</span> pale blue dot<span id="punto">.</span></h1>
+        <p class="hero-text"> El portal de podcasts que explora el 
+                              mundo de la programación y la tecnología. Nuevos episodios,
+                              todos los jueves cada 15 días.</p>
+                            
+      </div>
+      <button class="hero-btn">Conoce más</button>  
+
+     
+    </header>
+
+   
+
+    <!-- fin del encabezado  -->
+
+    <main class="sections-container"> 
+
+      <div class="paralelogramo"></div>
+      <h2 class="eps-title">Episodios</h2>
+      <section class="episodios-container" id="eps"> 
+        
+        <div class="episodios-item">
+          <iframe src="https://open.spotify.com/embed/episode/5UK6szP2HQ27OSiUmG2Jru?theme=0"
+           width="100%" height="232"
+           frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodios-item">
+          <iframe src="https://open.spotify.com/embed/episode/1ArcSgm8NXjlJBdFypOnJs?theme=0" width="100%" height="232" 
+          frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodios-item">
+          <iframe src="https://open.spotify.com/embed/episode/0fVN530ZussLgy6LxecFNu?theme=0" width="100%" height="232" 
+          frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="episodios-item">
+          <iframe src="https://open.spotify.com/embed/episode/4YXqauPtJfX1GJGYBEqBdi?theme=0" width="100%" height="232" 
+          frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </section>
+
+      <section class="nosotros-container" id="us">
+        <div class="us-img-container">
+          <img src="/assets/phone.png" alt="" class="phone">
+        </div>
+
+        <div class="us-text-container">
+          <h2 class="us-title">De dónde venimos</h2>
+          <p class="us-text">
+            Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. 
+          </p><br>
+            <p class="us-text">Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+          </p>
+        
+        </div>
+      </section>
+
+      <section class="invitados-container">
+      <h2 class="invit-title">Invitados/as estelares</h2>
+      <div class="invit-img-container">
+      <img src="/assets/grace-hopper.png" alt="">
+      <img src="/assets/Margaret_Hamilton.png " alt="">
+      <img src="/assets/Katie-Bouman.png" alt="">
+      <img src="/assets/susan-kare.png" alt="">
+      <img src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+      <img src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+      </div>
+    </section>
+
+      <section class="topicos-container">
+        <h2 class="topicos-title">Algunos de nuestros temas</h2>
+        <div class="topic-icons-container">
+          <div class="icon-item">
+            <img src="/assets/icon1.svg" alt="">
+            <h4>Trabajo Remoto</h4>
+          </div>
+
+          <div class="icon-item">
+            <img src="/assets/icon2.svg" alt="">
+            <h4>Repensando la programación</h4>
+          </div>
+
+          <div class="icon-item">
+            <img src="/assets/icon3.svg" alt="">
+            <h4>Bases del código</h4>
+          </div>
+
+          <div class="icon-item">
+            <img src="/assets/icon4.svg" alt="">
+            <h4>Seguridad informática</h4>
+          </div>        
+        </div>
+      </section>
+      </main>
+
+      <!-- Fin de MAIN -->
+
+      <footer class="footer-container">
+        <div class="more-container">
+          <div class="paralelogramo-footer"></div>
+          <h2 class="more-title">¿Quieres las últimas novedades?</h2>
+          <button class="more-btn">Escucha los episodios</button>
+        </div>
+
+        <div class="footer-navBar">
+          <div class="firma">@2021 Yuritalinda</div>
+
+          <div class="rrss-icon-container">
+            <img src="" alt="">Spotify
+            <img src="" alt="">Instagram
+            <img src="" alt="">Twitter
+            <img src="" alt="">Facebook
+          </div>
+        </div>
+      </footer>
+
+
+
+  </body>
+</html>
