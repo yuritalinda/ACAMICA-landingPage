@@ -19,12 +19,30 @@
         </div>
 
         <ul class="navBar">
-          <li class="nav-link">Episodios</li>
-          <li class="nav-link">Nosotros</li>
-          <li class="nav-link">Entrevistas</li>
-          <li class="nav-link">Tópicos</li>
+          <li class="nav-link"><a href="#eps">Episodios</a></li>
+          <li class="nav-link"><a href="#us">Nosotros</a></li>
+          <li class="nav-link"><a href="#inv">Entrevistas</a></li>
+          <li class="nav-link"><a href="#top">Tópicos</a></li>
         </ul>
-      </nav>
+
+        <div class="nav-menu-movil">
+          <div class="mobile-menu">
+          <input type="checkbox" id="hamburguesa" />
+          <label for="hamburguesa" class="hamburger">
+            <img height="20px" src="" alt="burguer" />
+            <a class="main-nav-toggle"><i></i></a>
+          </label>
+      
+  
+          <div class="nav-menu-movil movil-link">
+            <div> <a class="navlist-link" href="#eps">Episodios</a></div>
+            <div> <a class="navlist-link" href="#us">Nosotros</a></div>
+            <div> <a class="navlist-link" href="#inv">Entrevista</a></div>
+            <div> <a class="navlist-link" href="#top">Tópicos</a></div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
       <div class="hero">
         <h1 class="hero-title">Hello <span id="world">world</span> pale blue dot<span id="punto">.</span></h1>
@@ -69,7 +87,7 @@
 
       <section class="nosotros-container" id="us">
         <div class="us-img-container">
-          <img src="/assets/phone.png" alt="" class="phone">
+          <img src="/assets/phone.png" alt="phone" class="phone">
         </div>
 
         <div class="us-text-container">
@@ -83,19 +101,20 @@
         </div>
       </section>
 
-      <section class="invitados-container">
+      <section class="invitados-container" id="inv">
       <h2 class="invit-title">Invitados/as estelares</h2>
       <div class="invit-img-container">
-      <img src="/assets/grace-hopper.png" alt="">
-      <img src="/assets/Margaret_Hamilton.png " alt="">
-      <img src="/assets/Katie-Bouman.png" alt="">
-      <img src="/assets/susan-kare.png" alt="">
-      <img src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
-      <img src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
+      <img src="/assets/grace-hopper.png" alt="grace-hopper">
+      <img src="/assets/Katie-Bouman.png" alt="Katie-Bouman">
+      <img src="/assets/Margaret_Hamilton.png " alt="Margaret_Hamilton">
+      <img src="/assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="ERA-univac">
+      <img src="/assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="ENIAC">
+      <img src="/assets/susan-kare.png" alt="susan-kare">
+      
       </div>
     </section>
 
-      <section class="topicos-container">
+      <section class="topicos-container" id="top">
         <h2 class="topicos-title">Algunos de nuestros temas</h2>
         <div class="topic-icons-container">
           <div class="icon-item">
@@ -122,8 +141,9 @@
       </main>
 
       <!-- Fin de MAIN -->
-
+      
       <footer class="footer-container">
+        
         <div class="more-container">
           <div class="paralelogramo-footer"></div>
           <h2 class="more-title">¿Quieres las últimas novedades?</h2>
@@ -131,13 +151,15 @@
         </div>
 
         <div class="footer-navBar">
-          <div class="firma">@2021 Yuritalinda</div>
+          <div class="firma">@2021-hello blue pale dot</div>
 
           <div class="rrss-icon-container">
-            <img src="" alt="">Spotify
-            <img src="" alt="">Instagram
-            <img src="" alt="">Twitter
-            <img src="" alt="">Facebook
+            <a href="http://www.spotify.com" target="_blank"><img src="/assets/iconos RRSS/svg/spotify.svg" alt="spotify"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="/assets/iconos RRSS/svg/011-instagram.svg" alt="instagram"></a>
+            <a href="http://www.twitter.com" target="_blank"><img src="/assets/iconos RRSS/svg/013-twitter.svg" alt="twitter"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="/assets/iconos RRSS/svg/001-facebook.svg" alt="facebook"></a>
+            <a href="http://www.telegram.com" target="_blank"><img src="/assets/iconos RRSS/svg/telegrama.svg" alt="telegram"></a>
+
           </div>
         </div>
       </footer>
