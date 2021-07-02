@@ -337,7 +337,7 @@ line-height: 28px;
   .paralelogramo-footer{
     position: absolute;
     width: 100vw;
-    height: 500px;
+    height: 460px;
     transform: skewY(-5deg);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     z-index: -1;
@@ -456,12 +456,26 @@ line-height: 28px;
     height: 224px;
   }
 
+  #hamburguesa{
+    position: absolute;
+    right: 0;
+  }
+  
+ 
+  .movil-link a{
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+
   .hero{
     margin: 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
     width: 100vw;
     
   }
@@ -478,38 +492,46 @@ line-height: 28px;
     text-align: left;
   }
 
+  .eps-title , .us-title , .invit-title , .topicos-title, .more-title{
+    font-size: 4rem;
+    margin: 0;
+    padding: 5%;
+    
+  }
+
   .hero-text{
     font-family: "IBM Plex Mono" , monospace;
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
-    margin: 5%;
-    width: fit-content;
+    width: 100vw;
   }
 
   .hero-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2%;
     width: 100vw;
-    font-size:larger;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
 
   }
 
   .sections-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10%;
   }
 
   .paralelogramo{
-    
+    position: absolute;
+    top: 890px;
     transform: skewY(-5deg);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     z-index: -1;
+    width: 100vw;
+    height: 1540px;
 
   }
 
@@ -518,26 +540,42 @@ line-height: 28px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    
   }
 
   .episodios-item{
-    width: 70vw;
-    height: 500px;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
   }
+
 
   .nosotros-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: fit-content;
+  }
+  .us-text-container{
+    width:100vw;
   }
 
-  .invitados-container{
+
+
+  .invitados-container , h2{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .invit-img-container img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
   }
 
   .topicos-container{
@@ -547,11 +585,51 @@ line-height: 28px;
     justify-content: center;
   }
 
-  .footer-container{
+
+  .topic-icons-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
+  }
+  .icon-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 330px;
+  }
+
+  .icon-item img{
+    width: 160px;
+    height: 160px;
+  }
+
+  .icon-item h4{
+    font-size: 2rem;
+  }
+
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .paralelogramo-footer{
+    width: 100vw;
+    height: 500px;
+  }
+
+  .more-container{
+    padding: 10px;
+  }
+
+  .more-btn{
+    width: 95vw;
   }
 
 
